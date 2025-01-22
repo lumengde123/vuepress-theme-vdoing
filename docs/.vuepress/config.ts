@@ -40,32 +40,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
             ],
           },
-          {
-            text: '学习笔记',
-            items: [
-              { text: '《JavaScript教程》', link: '/note/javascript/' },
-              { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-              { text: '《ES6 教程》', link: '/note/es6/' },
-              { text: '《Vue》', link: '/note/vue/' },
-              { text: '《React》', link: '/note/react/' },
-              {
-                text: '《TypeScript 从零实现 axios》',
-                link: '/note/typescript-axios/',
-              },
-              {
-                text: '《Git》',
-                link: '/note/git/',
-              },
-              {
-                text: 'TypeScript',
-                link: '/pages/51afd6/',
-              },
-              {
-                text: 'JS设计模式总结',
-                link: '/pages/4643cd/',
-              },
-            ],
-          },
         ],
       },
       {
@@ -92,8 +66,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: '学习', link: '/pages/a8692ab3bdcb4588/' },
           { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-          { text: '实用技巧', link: '/pages/baaa02/' },
           { text: '友情链接', link: '/friends/' },
         ],
       },
@@ -172,7 +144,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+      avatar: 'https://lsky.1sj.top/i/2024/09/24/66f25b29aa358.webp',
       name: 'Mengde Lu',
       slogan: '一只互联网屯屯鼠',
     },
@@ -271,14 +243,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             title: '在MDN中搜索',
             frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
             behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
-          },
-          {
-            title: '在Runoob中搜索',
-            frontUrl: 'https://www.runoob.com/?s=',
-          },
-          {
-            title: '在Vue API中搜索',
-            frontUrl: 'https://cn.vuejs.org/v2/api/#',
           },
           {
             title: '在Bing中搜索',

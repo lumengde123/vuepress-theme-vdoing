@@ -1,15 +1,15 @@
 ---
-title: books
+title: 阅读书籍清单
 date: 2024-12-28 16:55:11
-permalink: /pages/fa7969/
 sidebar: auto
-categories:
+categories: 
   - 随笔
-tags:
-  - 
+tags: 
+  - null
 author: 
   name: lumengde
   link: https://github.com/lumengde123
+permalink: /pages/113249/
 ---
 
 
