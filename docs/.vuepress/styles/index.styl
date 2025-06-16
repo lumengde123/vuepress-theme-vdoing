@@ -70,3 +70,13 @@ body .vuepress-plugin-demo-block__wrapper
   .highlight
     color: $accentColor
     font-weight: bold
+
+// banner 文字颜色改成--textColor，随着主题而改变颜色（自定义修改）
+.banner .hero h1, .banner .hero p, .banner .features h2, .banner .features p {
+  color: var(--textColor) !important;
+}
+// 保留 hover时 的颜色变化
+.home-wrapper .banner .banner-conent .feature:hover h2,
+.home-wrapper .banner .banner-conent .feature:hover p {
+  color: #11a8cd !important;
+}
